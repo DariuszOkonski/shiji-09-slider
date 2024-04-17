@@ -202,6 +202,7 @@ ul {
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
+  border: 1px solid var(--grey-200);
 }
 
 .form-row {
@@ -260,7 +261,6 @@ ul {
   max-width: 800px;
   position: relative;
   height: 450px;
-  border: 1px solid black;
   overflow: hidden;
 }
 
@@ -349,4 +349,8 @@ ul {
     height: 2rem;
     font-size: 1.5rem;
   }
+}
+
+.next-slide {
+  transform: translateX(100%);
 }
